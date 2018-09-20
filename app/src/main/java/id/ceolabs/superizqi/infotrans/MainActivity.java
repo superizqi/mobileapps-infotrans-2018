@@ -22,4 +22,11 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this,login.class);
         startActivity(i);
     }
+
+    public void to_pilih_kota(View v){
+        Intent i = new Intent(MainActivity.this,pilih_kota.class);
+        startActivity(i);
+        finish();
+    }
+
 }

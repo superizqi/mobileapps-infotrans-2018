@@ -42,34 +42,34 @@
             />
 
         <Button
-            android:textSize="13sp"
-            android:textColor="#fff"
-            android:paddingLeft="10dp"
-            android:paddingRight="5dp"
-            android:background="@drawable/btn_oren"
-            android:drawableLeft="@drawable/google_icon"
-            android:text="Masuk Menggunakan Google"
-            android:layout_weight="1"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            />
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_oren"
+            android:drawableLeft="@drawable/google_icon"
+            android:onClick="to_pilih_kota"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:text="Masuk Menggunakan Google"
+            android:textColor="#fff"
+            android:textSize="13sp" />
 
         <Button
 
-            android:textColor="#fff"
-            android:textSize="15sp"
-            android:background="@drawable/btn_ijo"
-            android:text="Masuk Tanpa Login"
-            android:layout_weight="1"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            />
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_ijo"
+            android:onClick="to_pilih_kota"
+            android:text="Masuk Tanpa Login"
+            android:textColor="#fff"
+            android:textSize="15sp" />
 
     </LinearLayout>
 

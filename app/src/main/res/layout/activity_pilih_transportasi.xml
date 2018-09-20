@@ -7,30 +7,99 @@
     android:layout_height="match_parent"
     tools:context=".pilih_transportasi"
     android:orientation="vertical"
-    android:weightSum="10"
     >
 
-    <TextView
-        android:drawableLeft="@drawable/panah"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:background="#00796B"
-        android:gravity="center_vertical"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp"
-        android:paddingLeft="10dp"
-        android:drawablePadding="15dp"
-        android:text="Pilih Transportasi"
-        android:textColor="#fff"
-        android:textSize="24sp"/>
+        android:layout_height="match_parent">
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background_1"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilih Transportasi"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Klik pada gambar transportasi yang ingin anda gunakan"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                />
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:onClick="to_angkot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/angkot"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <ImageView
+                    android:onClick="to_busdamri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/busdamri" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:onClick="to_tmb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tmb"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <ImageView
+                    android:onClick="to_pangkalan_ojek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pangkalan_ojek" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </LinearLayout>

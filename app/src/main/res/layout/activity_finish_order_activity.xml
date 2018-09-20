@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finish_order_activity"
+    android:orientation="vertical"
+    >
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+       <ImageView
+            android:id="@+id/backgr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RENCANA PERJALANAN"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                />
+
+            <!--1. Pilih Transportasi Ke Halte-->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="1. Pilih Transportasi Ke Halte"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="20dp"
+                    />
+                <!--GOJEK-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/grab_rec"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GOJEK"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 Menit"
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="end"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. 9000"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:layout_marginTop="5dp"
+                            android:textColor="#fff"
+                            android:background="@drawable/rounded"
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:text="ORDER"
+                            android:textSize="10sp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+                <!--GRAB-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/grab_rec"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GOJEK"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 Menit"
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="end"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. 9000"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:layout_marginTop="5dp"
+                            android:textColor="#fff"
+                            android:background="@drawable/rounded"
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:text="ORDER"
+                            android:textSize="10sp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Pilih Angkut Ke Tujuan-->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="2. Pilih Angkut Ke Tujuan"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="20dp"
+                    />
+                <!--GOJEK-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/grab_rec"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GOJEK"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 Menit"
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:orientation="vertical"
+                        android:gravity="end"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. 9000"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:layout_marginTop="5dp"
+                            android:textColor="#fff"
+                            android:background="@drawable/rounded"
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:text="ORDER"
+                            android:textSize="10sp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+                <!--GRAB-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/grab_rec"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GOJEK"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 Menit"
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:orientation="vertical"
+                        android:gravity="end"
+                        >
+
+                        <TextView
+                            android:paddingLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. 9000"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:layout_marginTop="5dp"
+                            android:textColor="#fff"
+                            android:background="@drawable/rounded"
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:text="ORDER"
+                            android:textSize="10sp"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Selesai"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

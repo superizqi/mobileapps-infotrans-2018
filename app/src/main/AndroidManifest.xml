@@ -25,12 +25,14 @@
         <activity android:name=".zona_merah_no" />
         <activity android:name=".info_transportasi_2" />
         <activity android:name=".zona_merah_yes" />
-        <activity android:name=".google_maps"></activity>
+        <activity android:name=".order_activity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDxjEv8on858GmDzHraVbUHL-oPOYSGj1o"/>
+            android:value="AIzaSyDxjEv8on858GmDzHraVbUHL-oPOYSGj1o" />
 
+        <activity android:name=".pilih_layanan" />
+        <activity android:name=".finish_order_activity"></activity>
     </application>
 
 </manifest>
